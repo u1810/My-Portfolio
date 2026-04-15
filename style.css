@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav {
+    text-align: center;
+    background: #020617;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #38bdf8;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px #38bdf8;
+}
+
+section {
+    padding: 80px 40px;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: auto;
+    scroll-margin-top: 80px;
+}
+
+h2 {
+    color: #38bdf8;
+    border-bottom: 2px solid #38bdf8;
+}
+
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #334155;
+}
+
+form {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #020617;
+    color: white;
+}
+
+button {
+    background: #38bdf8;
+    color: black;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0ea5e9;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+}
